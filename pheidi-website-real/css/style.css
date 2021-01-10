@@ -36,7 +36,7 @@ body{
 
 /* h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	color: #3a3a3a;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Anton', sans-serif;
 }
 
 p{
@@ -88,7 +88,7 @@ header h1,
 	color: #ffffff;
 }
 .social a:hover{
-	color: #00ffcc;
+	color: #66d7ff;
 }
 
 .features p{
@@ -151,7 +151,7 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-brand{
-	color: #333333;
+	color: #66d7ff;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 2em;
@@ -164,13 +164,20 @@ nav.navbar.fixed-to-top{
 /*-----------------------------------------------------------------------------------*/
 
 header{
-	padding: 150px 0px 0px 0px;
+	padding: 75px 0px 0px 0px;
 	height: 1000px;
-	background: url('../img/track-dark.png');
+	background: url('../img/pheidibk3.png');
 	background-color: white!important;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: white;
+}
+
+header h2{
+	font-family: pna-thin;
+	font-style: normal;
+	font-size: 30px;
+	color: #66d7ff;
 }
 
 header h1{
@@ -191,9 +198,10 @@ header p.lead{
 header .carousel-iphone{
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 48px;
 	width: 320px;
 	height: 672px;
-	background: url('../img/matches-screen.png') no-repeat;
+	background: url('../img/screenshots/pheidiheader.png') no-repeat;
 	background-size: 100%;
 
 }
@@ -387,7 +395,7 @@ header .carousel-indicators li {
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
-	color: black;
+	color: rgb(0, 0, 0);
 }
 
 .features p {
@@ -416,6 +424,23 @@ header .carousel-indicators li {
 	color: black;
 	font-size: 5em;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	About Us
+/*-----------------------------------------------------------------------------------*/
+.about{
+	overflow: hidden;
+	padding: 0px, 0px, 300px, 0px;
+	min-height: 400px;
+	color: black;
+}
+
+.about h2{
+	font-family: pna-thin;
+	font-weight: 400;
+	font-size: 45px;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	SOCIAL

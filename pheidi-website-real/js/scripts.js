@@ -26,7 +26,7 @@ var scrollTop = $(window).scrollTop();
 	} else if (scrollTop == 0)   {
 	
 		$('.navbar-default').removeClass('fixed-to-top');
-	}
+	} 
 	
 	
 //animations	
